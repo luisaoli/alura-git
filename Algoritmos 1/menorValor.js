@@ -1,7 +1,5 @@
 //obj: encontrar o livro mais barato e o mais caro dentro do array
 
-const livros = require('./lista-livros');
-
 function menorValor(arrProdutos, posicaoInicial){
     let maisBarato = posicaoInicial;
     
@@ -13,6 +11,5 @@ function menorValor(arrProdutos, posicaoInicial){
 
     return maisBarato;
 }
-
 
 module.exports = menorValor;
