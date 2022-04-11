@@ -1,8 +1,12 @@
 {
   "name": "lib-markdown-la",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "validação de links em textos markdown",
-  "keywords": ["validacao", "links", "markdown"],
+  "keywords": [
+    "validacao",
+    "links",
+    "markdown"
+  ],
   "main": "./cli.js",
   "bin": {
     "lib-markdown-la": "./cli.js"
@@ -16,8 +20,8 @@
   "author": "Luisa Andrade <luisaoliveira.e@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url" : "https://github.com/luisaoli/alura-git/tree/master/node.js/LIB-MARKDOWN/issues",
-    "email" : "luisaoliveira.e@gmail.com"
+    "url": "https://github.com/luisaoli/alura-git/tree/master/node.js/LIB-MARKDOWN/issues",
+    "email": "luisaoliveira.e@gmail.com"
   },
   "dependencies": {
     "chalk": "^5.0.1",
